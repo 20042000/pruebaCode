@@ -2,11 +2,8 @@
   // Name this configuration
   "name": "Codespace para Habitacion",
   // Use the base codespace image
-  //"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-
-  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
-
-
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  
   "remoteUser": "codespace",
   "overrideCommand": false,
 
@@ -25,7 +22,10 @@
     "vscode": {
       "extensions": [
         "GitHub.copilot",
-        "vmware.vscode-boot-dev-pack"
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-boot-dev-pack",
+        "SonarSource.sonarlint-vscode",
+        "GitHub.vscode-github-actions"
       ]
     }
   },
