@@ -2,7 +2,10 @@
   // Name this configuration
   "name": "Codespace para Habitacion",
   // Use the base codespace image
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  //"image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+
 
   "remoteUser": "codespace",
   "overrideCommand": false,
