@@ -6,6 +6,16 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false,
+
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "installMaven": true,
+      "installGradle": false,
+      "version": "17",
+      "jdkDistro": "ms",
+      "mavenVersion": "3.8.6"
+    }
+  },
   
   // Add the IDs of extensions you want installed when the container is created.
   "customizations": {
